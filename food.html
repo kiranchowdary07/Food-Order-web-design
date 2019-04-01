@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+  body{
+    overflow-x: hidden;
+  }
+   .hovertext{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+   left: 25px;
+  }
+
+  .price{
+  height: 40px;
+    width: 80px;
+    border: 1px solid #ff9e3c;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 3px;
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+  }
+  .price1{
+    height: 40px;
+    width: 80px;
+    border: 1px solid #ff9e3c;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 3px;
+    position: relative;
+    bottom: 120px;
+    left: 200px;
+  }
+  button.ordernow{
+     width: 250px;
+     font-size: 16px;
+     height: 45px;
+     padding-top: 8px;
+     background-color: #e54444; 
+     color:#e6e6e6; 
+  }
+  .logo{
+    position: relative;left: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+  }
+  .icons{
+     padding-left: 270px; 
+     margin-top: 10px
+  }
+  .msg{
+     padding-top: 0px;
+     margin-right: 30px; 
+     font-size: 12px;
+  }
+  .pn{
+     margin-bottom: 10px; 
+     font-size: 12px;
+  }
+  .aa{
+     font-size: 10px; 
+     padding-top: 23px; 
+     font-family: 'Oswald'; font-size: 20px;
+     position: relative;right: 130px;
+  }
+  .foodmenu{
+    position: relative;right: 35px;
+    top: 22px;
+    font-size: 20px;
+     font-family: 'Oswald'; font-size: 20px;
+  }
+  .offer{
+     font-family: 'Oswald'; font-size: 20px;
+     font-size: 20px;
+     position: relative;right: 40px;
+  }
+
+  .container-fluid{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .overlay {
+  position: absolute;
+  bottom: 150px;
+  left:1400px;
+  background-color:  #ff653c;
+  height: 100%;
+}
+  .profileimg:hover .overlay{
+    width: 150px;
+    height: 151px;
+    position: relative;
+    left: 0px;
+    opacity: 0.7;
+  }
+ 
+ h3
+  {
+    position: relative;
+    left: 160px;
+    top: 7px;
+  }
+  
+  
+  .beverages{
+    position: relative;
+    bottom: 260px;
+    right: 170px;
+
+  }
+	.large{
+		position: relative;
+		left: 220px;
+		bottom: 40px;
+		color: white;
+
+	}
+
+	.mediam{
+		position: relative;
+		left: 100px;
+		bottom: 20px;
+		color: white;
+	}
+	.prices{
+		height: 40px;
+		width: 80px;
+		border: 1px solid #ff9e3c;
+		color: white;
+		font-size: 25px;
+		padding-left: 20px;
+		padding-top: 3px;
+		position: relative;
+		bottom: 40px;
+		right: 20px;
+
+	}
+	.pizza{
+		padding-top: 30px;
+	}
+	h2{
+		text-align: center;	
+	}
+  h4{
+    position: relative;left: 70px;
+  }
+	.mainbg{
+		background-image: url("mainbg.jpg");
+    width: 1320px;
+    position: relative;
+    top: 10px;
+	}
+  .bgbever{
+    background-image: url("mainbg.jpg");
+    position: relative;
+    bottom: 119px;
+    padding-top:50px;
+    height: 380px;
+  }
+	.promo{
+		position: relative;
+		bottom: 70px;
+	}
+	.searchbg{
+            height: 89px;
+            width: 80px;
+            background-color: white;
+            position: relative;
+            top: 14px;
+            left: 50px;
+	}
+	.searchicon{
+		color: gray;
+		position: relative;
+		bottom: 52px;
+		left: 70px;
+	}
+  .beverages{
+    font-size: 80px;
+  }
+  h1{
+    text-align: center;
+  }
+		h1.pizzamania{
+       font-family: 'Cinzel Decorative', cursive; 
+       font-size: 40px; 
+       color: white; 
+       position:relative;bottom: 30px;
+			 text-align: center;
+		}
+    img.profile{
+      height: 150px;
+      width: 150px;
+    }
+		.citysearch{
+			width: 800px;
+			position: absolute;
+			top: 83px;
+			left: 140px;
+			padding: 30px ;
+			font-size: 19px;
+			background-color: white;
+		}
+
+		.inlineRadio1{
+			zoom:2.0;
+			position: relative;
+			top: 10px;
+			left: 90px;
+		}
+
+		h6{
+			position: relative;
+			top: 10px;
+			left: 800px;
+		}
+
+		.pickup{
+
+             zoom:2;
+             position: relative;
+             bottom: 29px;
+             left: 130px;
+           }
+           .pizzleft{
+              position: relative;right: 20px; 
+              height: 280px;
+           }
+           .pizzright{
+               height: 280px; 
+               position: relative;left: 20px;
+           }
+     
+  
+    @media (max-width: 1024px)
+    {
+       .aa{
+        position: relative;left: -90px;
+       }
+       button.ordernow{
+        position: relative;right: 60px;
+        top: 5px;
+       }
+     
+     .pizzleft{
+      position: relative;right: 180px;     
+           }
+      .pizzright{
+        position: relative;left: -140px;
+      }
+     ul{
+      position: relative;right: 40px;
+     }
+     p{
+      position: relative;left: 20px;
+     }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                  line 64*/
+     position: relative;left: 250px!important;
+     }
+     h1.pizzamania{
+      position: relative;right: 160px;
+     }
+    }
+
+@media (min-width: 770px) and (max-width: 960px)
+{
+  .msg{
+   position: relative;left:200px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    position: relative; left: 600px;
+    bottom: 50px;
+  }
+  .foodmenu{
+    position: relative;left: 170px;
+    top: -45px;
+  }
+  .aa{
+    float: left;
+    position: relative;left: 280px;
+    top: -95px;
+  }
+  button.ordernow{
+    position: relative;left: -210px;
+    top:-10px;
+  }
+  .nav2{
+    height: 150px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    margin-top: 10px;
+    position: relative;left: -220px;
+   }
+  ul{
+    position: relative;left: 70px;
+  }
+  h4{
+    position: relative;left: 150px;
+  }
+  
+  h2{
+    position: relative;right: 40px;
+  }
+  h1.pizzamania{
+    position: relative;top: -60px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+}
+
+@media(min-width: 701px) and (max-width: 769px){
+    .msg{
+   position: relative;left:200px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    position: relative; left: 550px;
+    bottom: 50px;
+  }
+  .foodmenu{
+    position: relative;left: 170px;
+    top: -45px;
+  }
+  .aa{
+    float: left;
+    position: relative;left: 280px;
+    top: -95px;
+  }
+   button.ordernow{
+    position: relative;left: -210px;
+      top:-10px;
+  }
+  .nav2{
+    height: 150px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    margin-top: 10px;
+    position: relative;left: -220px;
+   }
+  ul{
+    position: relative;left: 450px;
+    bottom: 170px;
+  }
+  h4{
+    position: relative;left: 470px;
+    bottom: 170px;
+  }
+  
+  h2{
+
+    position: relative;right: 40px;
+    bottom: 140px;
+  }
+  p{
+    position: relative;left: 220px;
+    top: 10px;
+    font-size: 15px;
+  }
+  h1.pizzamania{
+    position: relative;top: -60px;
+    left: -280px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 520px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                  line 64*/
+     position: relative;left: 5px!important;
+     }
+     img.profile{
+      position: relative;left: 200px;
+      top: 40px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 200px;
+     }
+     .beverages{
+          position: relative;bottom: 150px;
+     }
+  }
+
+  @media  (min-width: 641px) and (max-width: 700px){
+      .msg{
+   position: relative;left:200px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    position: relative; left: 500px;
+    bottom: 50px;
+  }
+  .foodmenu{
+    position: relative;left: 170px;
+    top: -45px;
+  }
+  .aa{
+    float: left;
+    position: relative;left: 280px;
+    top: -95px;
+  }
+   button.ordernow{
+    position: relative;left: -210px;
+      top:-10px;
+  }
+  .nav2{
+    height: 150px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    margin-top: 10px;
+    position: relative;left: -220px;
+   }
+  ul{
+    position: relative;left: 450px;
+    bottom: 170px;
+  }
+  h4{
+    position: relative;left: 470px;
+    bottom: 170px;
+  }
+  
+  h2{
+    position: relative;right: 40px;
+    bottom: 140px;
+  }
+  p{
+    position: relative;left: 220px;
+    top: 10px;
+    font-size: 13px;
+  }
+  h1.pizzamania{
+    position: relative;top: -60px;
+    left: -330px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                  line 64*/
+     position: relative;left: 5px!important;
+     }
+      button.owl-next{
+      position: relative;left: 550px!important;
+     }
+     img.profile{
+      position: relative;left: 200px;
+      top: 40px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 200px;
+     }
+     .beverages{
+          position: relative;bottom: 150px;
+     }
+     h1.extngofr{
+      position: relative;top:10px;
+     }
+  }
+
+  @media (min-width:602px) and (max-width: 640px){
+       .msg{
+   position: relative;left:200px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    position: relative; left: 450px;
+    bottom: 50px;
+  }
+  .foodmenu{
+    position: relative;left: 150px;
+    top: -45px;
+  }
+  .aa{
+    float: left;
+    position: relative;left: 260px;
+    top: -95px;
+  }
+   button.ordernow{
+    position: relative;left: -210px;
+      top:-10px;
+  }
+  .nav2{
+    height: 150px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    margin-top: 10px;
+    position: relative;left: -220px;
+   }
+  ul{
+    position: relative;left: 450px;
+    bottom: 170px;
+  }
+  h4{
+    position: relative;left: 470px;
+    bottom: 170px;
+  }
+  
+  h2{
+    position: relative;right: 40px;
+    bottom: 140px;
+  }
+  p{
+    position: relative;left: 200px;
+    top: 10px;
+    font-size: 13px;
+  }
+  h1.pizzamania{
+    position: relative;top: -60px;
+    left: -330px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+     position: relative;left: 15px!important; 
+     }
+      button.owl-next{
+      position: relative;left: 500px!important;
+     }
+     img.profile{
+      position: relative;left: 200px;
+      top: 40px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+          position: relative;bottom: 150px;
+     }
+     h1.extngofr{
+      position: relative;top:-5px;
+     }
+  .bgbever{
+    
+    position: relative;bottom: 170px;
+  }
+}
+
+ @media(min-width: 569px) and (max-width: 601px){
+  .logo{
+    position: relative;left: 10px;
+    top: 2px;
+  }
+       .msg{
+   position: relative;left:200px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    position: relative; left: 420px;
+    bottom: 50px;
+  }
+  .foodmenu{
+    position: relative;left: 123px;
+    top: -45px;
+  }
+  .aa{
+    float: left;
+    position: relative;left: 223px;
+    top: -95px;
+  }
+   button.ordernow{
+    position: relative;left: -210px;
+      top:-10px;
+  }
+  .nav2{
+    height: 150px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    margin-top: 10px;
+    position: relative;left: -260px;
+    bottom: 50px;
+   }
+  ul{
+    position: relative;left: 450px;
+    bottom: 100px;
+  }
+  h4{
+    position: relative;left: 470px;
+    bottom: 100px;
+  }
+  
+  h2{
+    position: relative;right: 40px;
+    bottom: 100px;
+  }
+  p{
+    display: none;
+  }
+  h1.pizzamania{
+    position: relative;top: -60px;
+    left: -330px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+     position: relative;left: 15px!important; 
+     }
+      button.owl-next{
+      position: relative;left: 500px!important;
+     }
+     img.profile{
+      position: relative;left: 250px;
+      top: 70px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+          position: relative;bottom: 150px;
+     }
+     h1.extngofr{
+      position: relative;top:-5px;
+     }
+  .bgbever{
+    
+    position: relative;bottom: 170px;
+  }
+ }
+
+ @media   (min-width: 537px) and (max-width: 568px){
+
+   .logo{
+    width: 130px;
+    height: 80px;
+    position: relative;left: 10px;
+    top: 2px;
+  }
+  .pn{
+    position: relative;left: 10px;
+  }
+       .msg{
+   position: relative;left:180px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    display: none;
+  }
+  .foodmenu{
+    position: relative;left: 220px;
+    top: -45px;
+  }
+  .aa{
+    position: relative;left: 223px;
+    top: -45px;
+  }
+   button.ordernow{
+    position: relative;left: -290px;
+      top:-10px;
+  }
+  .nav2{
+    height: 400px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    margin-top: 10px;
+    position: relative;left: -220px;
+    bottom: 50px;
+   }
+  ul{
+    position: relative;left: 400px;
+    bottom: 100px;
+  }
+  h4{
+    position: relative;left: 470px;
+    bottom: 100px;
+  }
+  
+  h2{
+    position: relative;right: 70px;
+    bottom: 100px;
+  }
+  p{
+    display: none;
+  }
+  h1.pizzamania{
+    position: relative;top: -30px;
+    left: -380px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+    display: none; 
+     }
+      button.owl-next{
+     display: none;
+     }
+     img.profile{
+      position: relative;left: 200px;
+      top: 70px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+      font-size: 35px;
+          position: relative;bottom: 170px;
+     }
+     h1.extngofr{
+      position: relative;top:-45px;
+     }
+  .bgbever{  
+    position: relative;bottom: 170px;
+  }
+ }
+
+ @media (min-width: 415px) and (max-width: 536px){
+        .logo{
+    width: 130px;
+    height: 80px;
+    position: relative;left: 10px;
+    top: 2px;
+  }
+  .pn{
+    position: relative;left: 10px;
+  }
+       .msg{
+   position: relative;left:160px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    display: none;
+  }
+  .foodmenu{
+    position: relative;left: 188px;
+    top: -45px;
+  }
+  .aa{
+    position: relative;left: 190px;
+    top: -45px;
+  }
+   button.ordernow{
+    position: relative;left: -290px;
+      top:-10px;
+  }
+  .nav2{
+    height: 400px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    height: 400px;
+    margin-top: 10px;
+    position: relative;left: -220px;
+    bottom: 20px;
+   }
+  ul{
+    position: relative;left: 260px;
+    top: 40px;
+  }
+  h4{
+    position: relative;left: 330px;
+    top: 40px;
+  }
+  
+  h2{
+    position: relative;right: 220px;
+    bottom: 125px;
+  }
+  p{
+    display: none;
+  }
+  h1.pizzamania{
+    font-size:25px;
+    position: relative;top: -10px;
+    left: -460px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+    display: none; 
+     }
+      button.owl-next{
+     display: none;
+     }
+     img.profile{
+      position: relative;left: 340px;
+      top: 90px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+      font-size: 35px;
+          position: relative;bottom: 160px;
+     }
+     h1.extngofr{
+      position: relative;top:-135px;
+     }
+  .bgbever{  
+    position: relative;bottom: 170px;
+  }
+  .mainbg{
+    position: relative;top: 10px;
+  }
+ }
+ 
+
+ @media (max-width: 414px){
+      .logo{
+    width: 130px;
+    height: 80px;
+    position: relative;left: 10px;
+    top: 2px;
+  }
+  .pn{
+    position: relative;left: 10px;
+  }
+       .msg{
+   position: relative;left:160px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    display: none;
+  }
+  .foodmenu{
+    position: relative;left: 188px;
+    top: -45px;
+  }
+  .aa{
+    position: relative;left: 190px;
+    top: -45px;
+  }
+   button.ordernow{
+    position: relative;left: -290px;
+      top:-10px;
+  }
+  .nav2{
+    height: 400px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    height: 400px;
+    margin-top: 10px;
+    position: relative;left: -220px;
+    bottom: 20px;
+   }
+  ul{
+    position: relative;left: 220px;
+    top: 40px;
+  }
+  h4{
+    position: relative;left: 295px;
+    top: 40px;
+  }
+  
+  h2{
+    position: relative;right: 240px;
+    bottom: 125px;
+  }
+  p{
+    display: none;
+  }
+  h1.pizzamania{
+    font-size:25px;
+    position: relative;top: -10px;
+    left: -460px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+    display: none; 
+     }
+      button.owl-next{
+     display: none;
+     }
+     img.profile{
+      position: relative;left: 315px;
+      top: 90px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+      font-size: 35px;
+          position: relative;bottom: 170px;
+     }
+     h1.extngofr{
+      position: relative;top:-135px;
+     }
+  .bgbever{  
+    position: relative;bottom: 170px;
+  }
+  .mainbg{
+    position: relative;top: 10px;
+  }
+ }
+ 
+
+
+ @media (max-width: 375px){
+   .logo{
+    width: 130px;
+    height: 80px;
+    position: relative;left: 10px;
+    top: 2px;
+  }
+  .pn{
+    position: relative;left: -23px;
+  }
+       .msg{
+   position: relative;left:115px;
+   bottom: 26px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    display: none;
+  }
+  .foodmenu{
+    position: relative;left: 188px;
+    top: -45px;
+  }
+  .aa{
+    position: relative;left: 190px;
+    top: -45px;
+  }
+   button.ordernow{
+    width: 100px;
+    position: relative;left: -215px;
+      top:-10px;
+  }
+  .nav2{
+    height: 400px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    height: 400px;
+    margin-top: 10px;
+    position: relative;left: -220px;
+    bottom: 20px;
+   }
+  ul{
+    position: relative;left: 180px;
+    top: 40px;
+  }
+  h4{
+    position: relative;left: 270px;
+    top: 40px;
+  }
+  
+  h2{
+    position: relative;right: 270px;
+    bottom: 125px;
+  }
+  p{
+    display: none;
+  }
+  h1.pizzamania{
+    font-size:25px;
+    position: relative;top: -10px;
+    left: -490px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+    display: none; 
+     }
+      button.owl-next{
+     display: none;
+     }
+     img.profile{
+      position: relative;left: 285px;
+      top: 90px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+      font-size: 35px;
+          position: relative;bottom: 160px;
+     }
+     h1.extngofr{
+      position: relative;top:-135px;
+     }
+  .bgbever{  
+    position: relative;bottom: 170px;
+  }
+  .mainbg{
+    position: relative;top: 10px;
+  }
+ }
+
+ @media(max-width: 320px){
+     .logo{
+    width: 130px;
+    height: 80px;
+    position: relative;left: 10px;
+    top: 2px;
+  }
+  .pn{
+    position: relative;left: 10px;
+  }
+       .msg{
+   position: relative;left:160px;
+   bottom: 25px; 
+  }
+  .nav1{
+    height: 50px;
+  }
+  .icons{
+    display: none;
+  }
+  .foodmenu{
+    position: relative;left: 188px;
+    top: -45px;
+  }
+  .aa{
+    position: relative;left: 190px;
+    top: -45px;
+  }
+   button.ordernow{
+    position: relative;left: -290px;
+      top:-10px;
+  }
+  .nav2{
+    height: 400px;
+  }
+  .body2{
+    position: relative;bottom: 70px;
+  }
+  .pizzleft,.pizzright{
+    height: 400px;
+    margin-top: 10px;
+    position: relative;left: -220px;
+    bottom: 20px;
+   }
+  ul{
+    position: relative;left: 200px;
+    top: 40px;
+  }
+  h4{
+    position: relative;left: 250px;
+    top: 40px;
+  }
+  
+  h2{
+    position: relative;right: 290px;
+    bottom: 125px;
+  }
+  p{
+    display: none;
+  }
+  h1.pizzamania{
+    font-size:25px;
+    position: relative;top: -10px;
+    left: -510px;
+  }
+  .beverages{
+    position: relative;left: 10px;
+  }
+  .cour{
+    height: 450px;
+  }
+    button.owl-prev{                     /* I have used this class sawn from owlcourousel.css  
+                                                                                 line 64*/
+    display: none; 
+     }
+      button.owl-next{
+     display: none;
+     }
+     img.profile{
+      position: relative;left: 265px;
+      top: 90px;
+     }
+     .profileimg:hover .overlay{
+      display: none;
+     }
+     img.bgbeverhead{
+        height: 180px;
+     }
+     .beverages{
+      font-size: 35px;
+          position: relative;bottom: 170px;
+     }
+     h1.extngofr{
+      position: relative;top:-145px;
+     }
+  .bgbever{  
+    position: relative;bottom: 170px;
+  }
+  .mainbg{
+    position: relative;top: -30px;
+  }
+  .prices{
+    padding-left: 10px;
+    font-size: 20px;
+    width: 65px;
+  }
+  .price{
+    position: relative;left: 70px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 65px;
+  }
+  .price1{
+     position: relative;left: 160px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 65px;
+  }
+  li, {
+    position: relative;right: 10px;
+  }
+  .mediam{
+    position: relative;left: 80px;
+  }
+  .large{
+    position: relative;left: 170px;
+  }
+ }
+ 
+
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="owl.carousel.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<title>Home Page</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+  <script src="jquery-3.3.1.min.js"></script>
+<script src="owl.carousel.js"></script>
+  
+</head>
+<body>
+
+
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-md-12 nav1" style="background-color:#f3fa28">
+			<div class="col-md-8" style="padding-top: 13px;">
+				<div class="col-md-1"></div>
+				  <div class="col-md-3 pn">
+					<i class="fas fa-phone fa-xs" style="padding-right: 10px; position: relative;bottom: 1px;"></i>+91 991 698 3338
+				    </div>
+			
+			        <div class="col-md-4 msg">
+				  <i class="fas fa-envelope" style="padding-right: 10px;"></i>pizzakingvizag@gmail.com
+			        </div>
+		     </div>
+		
+		     <div class="col-md-4 icons">
+		     	<i class="fab fa-facebook-f " style="padding-right: 10px;padding-left: 10px;font-size: 20px;"></i>
+		     	<i class="fab fa-youtube fa-2x"style="padding-right: 10px;padding-left: 10px; font-size: 20px;"></i>
+		     	<i class="fab fa-instagram fa-2x" style="padding-right: 10px;padding-left: 10px;font-size: 20px;"></i>
+
+		     </div>
+		</div>
+	</div>
+   	</div>
+ 
+ <div class="container-fluid">
+ 	<div class="row nav2" style="background-color: #008080;">
+ 		<div class="col-md-2 logo">
+ 			<a href="file:///E:/web/food/food.html"><img src="logo.png" alt="logo" height="60px;" class="logo"></a>
+ 		</div>
+ 		  <div class="col-md-2 col-sm-12 foodmenu">
+ 		   <a href="file:///E:/web/food/Food%20menu/food%20menu.html" style="color: white;">Food Menu</a>
+ 		  </div>
+ 		  <div class="col-md-1 aa">
+ 		    <a href="file:///E:/web/food/Offers/Offers.html" style="color: white;} ">Offers</a>
+ 		   </div>
+
+          <div class="col-md-1 aa">
+ 		    <a href="file:///E:/web/food/Nearby/Near%20by.html" style="color: white;">Near By</a>
+ 		   </div>
+ 		  <div class="col-md-1 aa">
+ 		    <a href="file:///E:/web/food/Gift%20cards/Gift%20Cards.html" style="color: white;">Gift Cards</a>
+ 		   </div>
+ 		  <div class="col-md-1 aa">
+ 		     <a href="" style="color: white;">About Us</a>
+ 		   </div>
+ 		   <div class="col-md-4 aa" style="padding-top: 15px;padding-left: 200px;">
+ 		   	<div class="container">
+  <!-- Trigger the modal with a button -->
+ <div><button type="button" class="btn btn-info btn-lg ordernow" data-toggle="modal" data-target="#myModal" style="background-color: #e54444; border: none;">Order Now</button></div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color:  #708ee8; width: 1000px; position: relative; right: 190px; height: 240px;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" style="padding-bottom: 1000px; position: relative;top: 30px;">x</button>
+          <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" class="inlineRadio1" value="option1"> <h3>Home delivery</h3>
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" class="inlineRadio1" value="option2" style="margin-left: 50px;"> <h3 style="position: relative;left: 300px;">Pick Up</h3>
+</label>
+          	<div class="searchbg"></div>
+          	<div class="searchicon"><i class="fas fa-search fa-3x"></i></div>
+          <input class="citysearch" type="text" name="citysearch" placeholder="Enter Area/Location">
+
+          <a href="" class="promo"><h6 style="color: white;">I Have Promo Code</h6></a>
+          <div class="modal-body">
+          
+        
+        </div>
+        </div>
+
+
+       
+      </div>
+      
+    </div>
+  </div>
+ 		   </div>
+      </div>
+   </div>
+
+   <!-- carousel starts-->
+   <div class="body2">
+   <div class="cour">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active" style="height: 550px;">
+      <img src="bg1.jpg" alt="Los Angeles">
+    </div>
+
+    <div class="item" style="height: 550px;">
+      <img src="bg2.jpg" alt="Chicago">
+    </div>
+
+    <div class="item" style="height: 550px;">
+      <img src="bg3.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<h1 class="extngofr" style="font-family: 'Cinzel Decorative', cursive; font-size: 40px;">------Exciting Offers------</h1>
+<div class="mainbg">
+<div class="owl-carousel owl-theme">
+	<div class="item"><img src="offer0.jpg" height="240px;"></div>
+    <div class="item"><img src="offer1.jpg" height="240px;"></div>
+    <div class="item"><img src="offer2.jpg" height="240px;"></div>
+    <div class="item"><img src="offer3.png" height="240px;"></div>
+    <div class="item"><img src="offer4.jpg" height="240px;"></div>
+    <div class="item"><img src="offer5.jpg" height="240px;"></div>
+    <div class="item"><img src="offer6.jpg" height="240px;"></div>
+    <div class="item"><img src="offer7.jpg" height="240px;"></div>
+</div>
+
+
+<script>
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+
+<!--pizza items-->
+
+   <h1 class="pizzamania"> ------Pizza Mania------</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12 pizzleft" style="background-color: rgba(0, 0, 0, 0.5);">
+           <div class="col-md-4 col-sm-4 col-xs-12 profileimg">
+              <img src="piz1.jpg" class="profile">
+              <div class="overlay">
+                <div class="hovertext">Veg Pizza</div>
+              </div>
+           </div>	  
+           <div class="col-md-8  col-sm-8">
+           	    <h2 style="color: #ff9e3c; font-family: 'Oswald', sans-serif;">Veg lovers</h2>
+           	    <div ><p style="color: white; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod veg cmarithon risokjfhij chtdi.
+           	   </p></div>
+           	   <br>
+           	   <h4 style="color:#ffe140 ">Choose Your Toppings</h4>
+           	     <ul>
+           	     	<li style="color: white;">Small</li>
+           	     	<li class="mediam">Mediam</li>
+           	     	<li class="large">Large</li>
+           	     </ul>
+           	     <ul>
+           	     	<div class="prices">99/-</div>
+           	     	<div class="price">130/-</div>
+           	     	<div class="price1">170/-</div>
+           	     </ul>
+           	 </div>    
+             </div>
+
+
+             <div class="col-md-6 col-xs-12 col-sm-12 pizzright" style="background-color: rgba(0, 0, 0, 0.5);">
+           <div class="col-md-4 col-sm-4 profileimg">
+           	<img src="piz2.jpg" class="profile">
+            <div class="overlay">
+                <div class="hovertext">Pepperoni</div>
+              </div>
+           </div>
+           <div class="col-md-8 col-sm-8">
+           	    <h2 style="color: #ff9e3c; font-family: 'Oswald', sans-serif;">Pepperoni Freak</h2>
+           	    <p style="color: white; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod veg cmarithon risokjfhij chtdi.
+           	   </p>
+           	   <br>
+           	   <h4 style="color:#ffe140 ">Choose Your Toppings</h4>
+           	     <ul>
+           	     	<li style="color: white;">Small</li>
+           	     	<li class="mediam">Mediam</li>
+           	     	<li class="large">Large</li>
+           	     </ul>
+           	     <ul>
+           	     	<div class="prices">110/-</div>
+           	     	<div class="price">150/-</div>
+           	     	<div class="price1">198/-</div>
+           	     </ul>
+           	 </div>    
+             </div>
+		
+	</div>
+</div>
+
+<div class="container">
+  <div class="row" style="padding-top: 37px;">
+    <div class="col-md-6 col-sm-12 col-xs-12 pizzleft" style="background-color: rgba(0, 0, 0, 0.5);">
+           <div class="col-md-4 col-sm-4 profileimg">
+            <img src="piz3.jpg" class="profile">
+            <div class="overlay">
+                <div class="hovertext">Meat Pizza</div>
+              </div>
+           </div>
+           <div class="col-md-8 col-sm-8">
+                <h2 style="color: #ff9e3c; font-family: 'Oswald', sans-serif;">Meat Lovers</h2>
+                <p style="color: white; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod veg cmarithon risokjfhij chtdi.
+               </p>
+               <br>
+               <h4 style="color:#ffe140 ">Choose Your Toppings</h4>
+                 <ul>
+                  <li style="color: white;">Small</li>
+                  <li class="mediam">Mediam</li>
+                  <li class="large">Large</li>
+                 </ul>
+                 <ul>
+                  <div class="prices">139/-</div>
+                  <div class="price">199/-</div>
+                  <div class="price1">240/-</div>
+                 </ul>
+             </div>    
+             </div>
+
+
+             <div class="col-md-6 col-sm-12 col-xs-12 pizzright" style="background-color: rgba(0, 0, 0, 0.5);">
+           <div class="col-md-4 col-sm-4 profileimg">
+           <img src="piz4.jpeg" class="profile">
+           <div class="overlay">
+                <div class="hovertext">Supreme</div>
+              </div>
+           </div>
+           <div class="col-md-8 col-sm-8">
+                <h2 style="color: #ff9e3c; font-family: 'Oswald', sans-serif;">Supreme</h2>
+                <p style="color: white; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod veg cmarithon risokjfhij chtdi.
+               </p>
+               <br>
+               <h4 style="color:#ffe140 ">Choose Your Toppings</h4>
+                 <ul>
+                  <li style="color: white;">Small</li>
+                  <li class="mediam">Mediam</li>
+                  <li class="large">Large</li>
+                 </ul>
+                 <ul>
+                  <div class="prices">170/-</div>
+                 <div class="price">249/-</div>
+                  <div class="price1">369/-</div>
+                 </ul>
+             </div>    
+             </div>
+    
+  </div>
+</div>
+</div>
+<br>
+<!-- Bevverages-->
+  <img class="bgbeverhead" src="bevbg.jpg" alt="beverages" width="1320px" height="400px;">
+    <h1 class="beverages" style="font-family: 'Cinzel Decorative', cursive; color: white;" class="beverages">BEVERAGES</h1>
+
+    <!-- Baverages courosel-->
+    <div class="bgbever"> 
+    <div class="owl-carousel owl-theme">
+  <div class="item"><img src="cofandtea.png" height="240px;"></div>
+    <div class="item"><img src="drink1.png" height="240px;"></div>
+    <div class="item"><img src="moctail.png" height="240px;"></div>
+    <div class="item"><img src="juice.png" height="240px;"></div>
+</div>
+
+    <script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+</div>
+
+</body>
+</html>
